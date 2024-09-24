@@ -2,8 +2,11 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
+import TitikKomaImg from "@/public/titikkoma.jpg";
+import AlpediaImg from "@/public/alpedia2.png";
+import IotImg from "@/public/iot.jpg";
+import mobileImg from "@/public/mobile.png";
+import gameImg from "@/public/game.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
@@ -35,52 +38,80 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
-    description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+    title: "SDN Gondrong 7",
+    location: "Tanggerang , Banten",
+    description: "Saya Menamatkan Jenjang SD selama 6 Tahun.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2013-2019",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    title: "SMPN 10",
+    location: "Medan , Sumatera Utara",
+    description: "Saya Menamatkan Jenjang SMP Selama 3 Tahun",
+    icon: React.createElement(LuGraduationCap),
+    date: "2019-2022",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "SMK Telkom 1",
+    location: "Medan , Sumatera Utara",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Sedang Bersekolah di SMK Telkom 1 Medan dengan Jurusan Rekayasa Perangkat Lunak. Saya Terus memperdalam skill saya didunia teknologi.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2022 - present",
+  },
+  {
+    title: "Mengikuti Kursus Kelas Fullstack",
+    location: "Medan , Sumatera Utara",
+    description:
+      "Saya Membeli Kursus Ngoding Online di CodePolitan dengan kelas Fullstack untuk memperdalam Skill Ngoding saya.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2022 - lifetime",
+  },
+  {
+    title: "Prakerin di Metromatika Teknologi Rekayasa",
+    location: "Medan , Sumatera Utara",
+    description:
+      "Mengikuti Program Prakerin dengan dunia industri untuk mengasah kemampuan di dunia kerja.",
+    icon: React.createElement(CgWorkAlt),
+    date: "October 2024 - April 2025",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "TitikKoma",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Sebuah Platfrom Kursus Ngoding Online dengan Mutiple User. Dan Memanfaatkan Keypoint Video Youtube Sebagai Video Pembelajaran.",
+    tags: ["Laravel", "CSS", "MySQL", "Tailwind", "JavaScript"],
+    imageUrl: TitikKomaImg,
   },
   {
-    title: "rmtDev",
+    title: "Alpedia",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "UI/UX membuat Website Layanan Topup Games beserta dengan prototyping.",
+    tags: ["Figma"],
+    imageUrl: AlpediaImg,
   },
   {
-    title: "Word Analytics",
+    title: "Foxy as Adventurer",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Sebuah Games 2D yang cukup kompleks beserta leveling, Collecting, Enemies, Boss, Health system, Damaging and more.",
+    tags: ["Unity", "C#", "Modelling"],
+    imageUrl: gameImg,
+  },
+  {
+    title: "Membuat Mobil RC",
+    description:
+      "Membuat Perangkat IOT sebuah mobil RC 2 Roda menggunakan Wemos D1 with Module Wifi untuk Koneksi Bluetooth.",
+    tags: ["IOT", "Prototyping"],
+    imageUrl: IotImg,
+  },
+  {
+    title: "NightReading",
+    description:
+      "Platfrom Mobile tempat Membaca Manga, Manhwa, Manhua, dan Novel",
+    tags: ["Flutter"],
+    imageUrl: mobileImg,
   },
 ] as const;
 
@@ -88,20 +119,15 @@ export const skillsData = [
   "HTML",
   "CSS",
   "JavaScript",
-  "TypeScript",
+  "Tailwind CSS",
   "React",
-  "Next.js",
-  "Node.js",
+  "Laravel",
+  "Flutter",
   "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "MySql",
+  "Unity",
+  "Microsoft Word",
+  "Figma",
+  "PHP",
+  "IOT",
 ] as const;
